@@ -1,11 +1,13 @@
 # Clojure Sample CLI Infix Calculator
 
 Just a small CLI-based infix calculator that redos input to prefix for using Clojure's built-in operators.
+
 More like a stub to see how a small CLI-based project could look.
 
 ## Prereqs
 
 You need to have JDK, and Leiningen installed to be able to use this project.
+
 To get your tools set up on an Ubuntu box, you can use my quick [guide](https://gist.github.com/christopherdoane/9b62f5c40ef08d6146b64b9da009ca32).
 
 ## Usage
@@ -16,6 +18,7 @@ To get your tools set up on an Ubuntu box, you can use my quick [guide](https://
 - Exit by crashing the program with any invalid input.
 
 Example usage:
+
 ![pic of some sample input](resources/usage.png)
 
 This doesn't handle parentheses, PEMDAS etc.
