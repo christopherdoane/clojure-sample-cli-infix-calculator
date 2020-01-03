@@ -7,12 +7,12 @@
     (Integer/parseInt (re-find #"\A-?\d+" s))))
 
 (defn string-to-operator
-  "Converts basic mathematical string experessions to their clojure operator equivalents."
+  "Converts basic mathematical string expressions to their clojure operator equivalents."
   [str]
   (resolve (symbol str)))
 
 (defn apply-operator
-  "Applies a string respresentation operator to its arguments"
+  "Applies a string representation operator to its arguments"
   [operator x y]
   ((string-to-operator operator) (parse-int x) (parse-int y)))
 
