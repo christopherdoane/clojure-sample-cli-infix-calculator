@@ -1,5 +1,6 @@
 (ns learning-clojure.core
-  (:require [learning-clojure.infix-calculator :as calc]))
+  (:require [learning-clojure.infix-calculator :as calc])
+  (:gen-class))
 
 (defn -main
   "Production"
