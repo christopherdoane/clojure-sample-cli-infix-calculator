@@ -21,7 +21,9 @@ Example usage:
 
 ![pic of some sample input](resources/usage.png)
 
-This doesn't handle parentheses, PEMDAS etc.
+You can run the tests via `lein test`.
+
+This project does not handle parentheses, PEMDAS etc as demonstrated in the tests.
 
 ## License
 
