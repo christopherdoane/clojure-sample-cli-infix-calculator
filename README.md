@@ -23,6 +23,10 @@ Example usage:
 
 You can run the tests via `lein test`.
 
+You can build a standalone jar via `lein uberjar`.
+
+To execute the resulting jar, run `java -jar projectname-standalone.jar`.
+
 This project does not handle parentheses, PEMDAS etc as demonstrated in the tests.
 
 ## License
